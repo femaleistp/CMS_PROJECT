@@ -1,0 +1,29 @@
+# Ignore build and debug files
+bin/
+obj/
+**/bin/
+**/obj/
+.vs/
+
+# Ignore logs
+*.log
+logs/
+npm-debug.log*
+
+# Ignore user-specific and IDE files
+*.user
+.idea/
+.vscode/
+
+# Ignore environment settings (DO NOT push secrets to GitHub)
+appsettings.Development.json
+.env
+
+# Ignore Angular build output
+dist/
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore EF Core migrations inside Areas (but NOT all migrations)
+Areas/**/Migrations/
